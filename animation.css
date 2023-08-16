@@ -1,0 +1,27 @@
+#red{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    animation: bloco 4s;
+}
+@keyframes bloco{
+    0%{
+        background-color: red;left: 40%px;top: 40%;
+    }
+    25%{
+        background-color: black;left: 50%;top: 40%;
+
+    }
+    50%{
+        background-color: aqua;left:50%
+        ;top: 50%;
+
+    }
+    75%{
+        background-color: blue;left:40%;top:50%;
+    }
+    100%{
+      background-color: red;left: 40%;top:40%;
+    }
+
+}
