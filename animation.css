@@ -1,27 +1,142 @@
-#red{
-    position: absolute;
-    left: 40%;
-    top: 40%;
-    animation: bloco 4s;
+.quad{
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
 }
-@keyframes bloco{
+#a{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius:50%;
+    left: 700px;
+    top: 225px;
+    animation:a 12s;
+
+}
+#q1{
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    animation:q1 12s;
+}
+#q2{
+    position: absolute;
+    left: 700px;
+    top: 375px;
+    animation:q2 ;
+}
+#q3{
+    position: absolute;
+    left: 700px;
+    top: 450px;
+    animation:q3 ;
+}
+#q4{
+    position: absolute;
+    left: 770px;
+    top:225px;
+    animation:q4 ;
+}
+#q5{
+    position: absolute;
+    left: 770px;
+    top: 300px;
+    animation:q5 ;
+}
+#q6{
+    position: absolute;
+    left: 770px;
+    top: 375px;
+    animation:q6 ;
+}
+#q7{
+    position: absolute;
+    left: 770px;
+    top: 450px;
+    animation:q7 ;
+}
+#q8{
+    position: absolute;
+    left: 840px;
+    top: 225px;
+    animation:q8 ;
+}
+#q9{
+    position: absolute;
+    left: 840px;
+    top: 375px;
+    animation:q9 ;
+}
+@keyframes a{
     0%{
-        background-color: red;left: 40%px;top: 40%;
+    opacity: 0%;
+    top:1px;
     }
-    25%{
-        background-color: black;left: 50%;top: 40%;
-
+    80%{
+        opacity: 0%;
+        top: 1px;
     }
-    50%{
-        background-color: aqua;left:50%
-        ;top: 50%;
-
-    }
-    75%{
-        background-color: blue;left:40%;top:50%;
+    83%{
+        opacity: 100%;
+        top:1px;
     }
     100%{
-      background-color: red;left: 40%;top:40%;
+        top:225px;
     }
+}
+@keyframes q1{
+    0%{
+        left: 0;
+        top:300px;
+    }
+    7%{
+        left:77px;
+        top: 250px
+    }
+    14%{
+        left: 154px;
+        top: 300px;
+    }
+    21%{
+        left: 231px;
+        top: 250px;
+    }
+    28%{
+        left: 308px;
+        top: 300px;
+    }
+    35%{
+        left: 385px;
+        top: 250px;
+    }
+    42%{
+        left: 462px;
+        top: 300px;
+    }
+    49%{
+        left: 539px;
+        top: 250px;
+    }
+    56%{
+        left: 616;
+        top: 300px;
+    }
+    63%{
+        left: 693px;
+        top: 250px;
+    }
+    70%{
+     left: 770px;
+     top: 300px;
+    }
+    100%{
+        left: 700px;
+        top: 300px;
+    }
+}
+@keyframes q2{
+     0%
 
 }
