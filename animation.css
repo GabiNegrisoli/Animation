@@ -19,7 +19,7 @@
     position: absolute;
     left: 700px;
     top: 300px;
-    animation:q1 12s;
+    animation:q1 10s;
 }
 #q2{
     position: absolute;
@@ -31,43 +31,43 @@
     position: absolute;
     left: 700px;
     top: 450px;
-    animation:q3 ;
+    animation:q3 10s;
 }
 #q4{
     position: absolute;
     left: 770px;
     top:225px;
-    animation:q4 ;
+    animation:q4 10s;
 }
 #q5{
     position: absolute;
     left: 770px;
     top: 300px;
-    animation:q5 ;
+    animation:q5 10s;
 }
 #q6{
     position: absolute;
     left: 770px;
     top: 375px;
-    animation:q6 ;
+    animation:q6 10s;
 }
 #q7{
     position: absolute;
     left: 770px;
     top: 450px;
-    animation:q7 ;
+    animation:q7 10s;
 }
 #q8{
     position: absolute;
     left: 840px;
     top: 225px;
-    animation:q8 ;
+    animation:q8 10s;
 }
 #q9{
     position: absolute;
     left: 840px;
     top: 375px;
-    animation:q9 ;
+    animation:q9 10s;
 }
 @keyframes a{
     0%{
@@ -145,6 +145,7 @@
     0%{
    left:1400px;
     top: 300px;
+   
 }
     20%{
     left:1050px;
@@ -154,9 +155,10 @@
         left:1050px;
         top: 300px;
     }
-    70%{
+    50%{
        left:770px;
        top: 300px;
+     
     }
     85%{
         left:770px;
@@ -166,8 +168,150 @@
         left: 700px;
         top: 375px;
     }
+}
+@keyframes q3{
+    0%{
+        left: 1500px;
+        top: 300px;
+        opacity: 0%;
+    }
+    30%{
+        left: 1400px;
+        top: 300px;
+        opacity: 100%;
+    }
+    31%{
+        left: 1400px;
+        top:300px;
+    }
+    35%{
+        left: 1050px;
+        top: 300px;
+        transform: rotate(0deg);
+    }
+    45%{
+        left: 1300px;
+        top:300px;
+        transform: rotate(360deg);
+    }
+    50%{
+        left: 1300px;
+        top:300px;
+        transform: rotate(0deg);
+    }
+    70%{
+        left:770px;
+       top: 300px;
+    }
+    85%{
+        left:770px;
+       top: 300px;
+    }
+    100%{
+        left: 700px;
+        top: 450px;
+    }
 
+}
+@keyframes q4{
+    0%{
+        top: 0px;
+        left:150px; 
+        opacity: 0%;
+    }
+    35%{
+        top: 0px;
+        left:150px; 
+        opacity: 100%;
+        transform: rotate(0deg);
+    }
+    40%{
+        top:100%;
+        left:150px;
+    }
+    41%{
+       left: 375px;
+       top:250px;
+    }
+    42.5%{
+        top: 200px;
+        left: 400px;
+    }
+    44%{
+        top:175px;
+        left:450px;
+    }
+    45%{
+        top:150px;
+        left:500px;
+    }
+    46%{
+        left:575px;
+        top: 175px;
+    }
+    47.5%{
+        top: 200px;
+        left: 625px;
+    }
+    49%{
+        top: 250px;;
+        left:700px;
+
+    }
+    50%{
+        top:300px;
+        left:770px;
+        transform: rotate(360deg);
+    }
+    51%{
+        top:300px;
+        left:770px;
+        transform: rotate(0deg);
+    }
+    85%{
+        top:300px;
+        left:770px;
+    }
+    100%{
+        left: 770px;
+        top:225px;
+}
+
+}
+@keyframes q5{
+          0%{
+            opacity: 0%;
+            left: 1200px;
+            top:150px;
+            
+          }
+          10%{
+            opacity: 100%;
+            left: 1200px;
+            top:150px;
+           transform: rotate(0deg);
+          }
+          60%{
+            opacity: 100%;
+            left: 1200px;
+            top:150px;
+           transform: rotate(10000deg);
+          }
+          70%{
+            top: 300px;
+            left: 770px;
+            transform: rotate(0deg);
+          }
+          85%{
+            top: 300px;
+            left: 770px;
+          }
+          100%{
+            left: 770px;
+            top: 300px;
+          }
+}
+@keyframes q6{
     
-
 }
 
