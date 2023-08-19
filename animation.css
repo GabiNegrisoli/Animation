@@ -70,7 +70,9 @@
     animation:q9 10s;
 }
 #b{
-    
+    position: absolute;
+    left: 700px;
+    top: 540px;
 }
 @keyframes a{
     0%{
