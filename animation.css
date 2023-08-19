@@ -12,7 +12,7 @@
     border-radius:50%;
     left: 700px;
     top: 225px;
-    animation:a 12s;
+    animation:a 14s;
 
 }
 #q1{
@@ -69,21 +69,29 @@
     top: 375px;
     animation:q9 10s;
 }
+#b{
+    
+}
 @keyframes a{
     0%{
     opacity: 0%;
     top:1px;
     }
-    80%{
+    71.4%{
         opacity: 0%;
         top: 1px;
     }
-    83%{
+    75%{
         opacity: 100%;
         top:1px;
     }
+    90%{
+        top:225px;
+        background-image:url(imagem/cassio\ 0.2.jpg);
+    }
     100%{
         top:225px;
+       
     }
 }
 @keyframes q1{
@@ -312,6 +320,162 @@
           }
 }
 @keyframes q6{
-    
+        0%{
+            left: 770px;
+            top: 840px;
+        } 
+        7.7%{
+            left:770px;
+            top:840px;
+        }
+        11.5%{
+            left: 710px;
+            top: 780px;
+        }
+        15.3%{
+            left: 770px;
+            top: 720px;
+        }
+        22.6%{
+            left: 770px;
+            top: 720px;
+        }
+        26.4%{
+            left: 710px;
+            top: 660px;
+        }
+        30.2%{
+            left: 770px;
+            top: 600px;
+        }
+        37.8%{
+            left: 770px;
+            top: 600px;
+        }
+        41.6%{
+            left:710px;
+            top:540px;
+        }
+        45.4%{
+            left: 770px;
+            top: 480px;
+        }
+        53%{
+            left: 770px;
+            top: 480px;
+        }
+        56.8%{
+            left: 710px;
+            top: 420px;
+        }
+        60.6%{
+            left:770px;
+            top:360px;
+        }
+        68.2%{
+            left: 770px;
+            top: 360px;
+        }
+        72%{
+            left: 770px;
+            top: 300px;
+        }
+        85%{
+            left: 770px;
+            top: 300px;
+        }
+        100%{
+            left: 770px;
+            top: 375px;
+        }
+
+}
+@keyframes q7{
+    0%{
+        left: 770px;
+        top: 900px;
+    }
+    3.8%{
+        left: 830px;
+        top:840px;
+    }
+    7.7%{
+        left: 770px;
+        top: 780px;
+    }
+    15.3%{
+        left: 770px;
+        top: 780px;
+    }
+    19.1%{
+        left:830px;
+        top: 720px;
+    }
+    22.6%{
+        left:770px;
+        top: 660px;
+    }
+    30.2%{
+        left: 770px;
+        top: 660px;
+    }
+    34%{
+        left: 830px;
+        top: 600px;
+    }
+    37.8%{
+        left: 770px;
+        top: 540px;
+    }
+    45.4%{
+        left: 770px;
+        top: 540px;
+    }
+    49.2%{
+        left: 830px;
+        top: 480px;
+    }
+    53%{
+        left: 770px;
+        top: 420px;
+    }
+    60.6%{
+        left: 770px;
+        top: 420px;
+    }
+    64.4%{
+        left:830px;
+        top:360px;
+    }
+    68.2%{
+        left: 770px;
+        top: 300px;
+    }
+    85%{
+        left: 770px;
+        top: 300px;
+    }
+    100%{
+        left: 770px;
+    top: 450px;
+    }
+}
+@keyframes q8{
+    0%{
+        left:770px;
+        top:0px;
+    }
+    70%{
+        left:770px;
+        top:300px;
+    }
+    85%{
+        left:770px;
+        top:300px;
+    }
+    100%{
+        left: 840px;
+        top: 225px;
+    }
 }
 
