@@ -67,7 +67,7 @@
     position: absolute;
     left: 840px;
     top: 375px;
-    animation:q9 10s;
+    animation:q9 20s;
 }
 #b{
     position: absolute;
@@ -584,7 +584,52 @@
     }
   }
   @keyframes q9{
-        
+       0%{
+        left: -60px;
+        top: 550px;
+       } 
+       60%{
+        left: -60px;
+        top: 550px;
+       }
+       65%{
+          left: 200px;
+          top: 550px;
+       }
+       70%{
+        left: 200px;
+        top: 550px;
+       }
+       73%{
+          left:200px;
+          top: 350px;
+          transform: rotate(0deg);
+       }
+       75%{
+        left: 200px;
+        top: 350px;
+        transform: rotate(30deg);
+       }
+       77%{
+        left: 200px;
+        top: 350px;
+        transform: rotate(330deg);
+       }
+       80%{
+        left: 200px;
+        top: 550px;
+        transform: rotate(0deg);
+       }
+       90%{
+        left: 840px;
+        top: 550px;
+       }
+       100%{
+        left: 840px;
+        top: 375px;
+       }
+
+       
   }
 
 
