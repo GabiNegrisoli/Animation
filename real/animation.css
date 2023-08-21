@@ -71,8 +71,9 @@
 }
 #b{
     position: absolute;
-    left: 700px;
-    top: 540px;
+    left: 690px;
+    top: 510px;
+    animation:if 25s;
 }
 @keyframes a{
     0%{
@@ -101,7 +102,6 @@
     0%{
         left: 0;
         top:300px;
-        
     }
     7%{
         left:77px;
@@ -634,5 +634,26 @@
 
        
   }
+  @keyframes if{
+    0%{
+        opacity: 0%;
+        top:510px;
+        left:690px;
+    }
+    80%{
+        opacity: 0%;
+        top:510px;
+        left:690px;
+    }
+    100%{
+        opacity: 100%;
+        top:510px;
+        left:690px;
+    }
+
+
+
+  }
+
 
 
