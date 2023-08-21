@@ -82,7 +82,7 @@
     71.4%{
         opacity: 0%;
         top: 1px;
-        background-image:url(imagem/cassio\ 0.2.jpg);
+        background-image:url(../imagem/cassio\ 0.2.jpg);
     }
     75%{
         opacity: 100%;
@@ -90,17 +90,18 @@
     }
     90%{
         top:225px;
-        background-image:url(imagem/cassio\ 0.2.jpg);
+        background-image:url(../imagem/cassio\ 0.2.jpg);
     }
     100%{
         top:225px;
-        background-image:url(imagem/large-red-square-3011.png);
+        background-image:url(../imagem/large-red-square-3011.png);
     }
 }
 @keyframes q1{
     0%{
         left: 0;
         top:300px;
+        
     }
     7%{
         left:77px;
