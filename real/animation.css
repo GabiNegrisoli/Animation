@@ -72,30 +72,30 @@
 #b{
     position: absolute;
     left: 690px;
-    top: 510px;
+    top: 530px;
     animation:if 25s;
 }
 @keyframes a{
     0%{
     opacity: 0%;
     top:1px;
+   
     }
     71.4%{
         opacity: 0%;
         top: 1px;
-        background-image:url(../imagem/cassio\ 0.2.jpg);
     }
     75%{
         opacity: 100%;
         top:1px;
+        background-color:crimson;
     }
     90%{
         top:225px;
-        background-image:url(../imagem/cassio\ 0.2.jpg);
+        background-color: darkred;
     }
     100%{
         top:225px;
-        background-image:url(../imagem/large-red-square-3011.png);
     }
 }
 @keyframes q1{
@@ -637,21 +637,19 @@
   @keyframes if{
     0%{
         opacity: 0%;
-        top:510px;
+        top:530px;
         left:690px;
     }
     80%{
         opacity: 0%;
-        top:510px;
+        top:530px;
         left:690px;
     }
     100%{
         opacity: 100%;
-        top:510px;
+        top:530px;
         left:690px;
     }
-
-
 
   }
 
