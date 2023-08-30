@@ -1,8 +1,4 @@
-body{
-    background-color:black;
-    animation-name:body;
-    animation-duration: 27s;
-}
+
 .quad{
     background-color: green;
     width: 60px;
@@ -80,18 +76,6 @@ body{
     top: 530px;
     animation:if 25s;
 }
-#batata{
-    position: absolute;
-    left:10px;
-    top:0px;
-    height:5px;
-    width: 5px;
-    border-radius: 50%;
-    animation:  batata1 20s;
-    animation-iteration-count: infinite;
-    background-color:rgb(0, 212, 0);
-    z-index: -1;
-}
 @keyframes a{
     0%{
         left: 700px;
@@ -109,11 +93,9 @@ body{
     75%{
         opacity: 100%;
         top:1px;
-        background-color:crimson;
     }
     90%{
         top:225px;
-        background-color: darkred;
     }
     100%{
         top:225px;
@@ -672,172 +654,6 @@ body{
     }
 
   }
-  .b1 {
-    animation-delay: 20ms;
-    opacity: 0.5;
-  }
-  
-  .b2 {
-    animation-delay: 40ms;
-    opacity: 0.4;
-  }
-  
-  .b3 {
-    animation-delay: 60ms;
-    opacity: 0.3;
-  }
-  
-  .b4 {
-    animation-delay: 80ms;
-    opacity: 0.2;
-  }
-
-@keyframes batata1{
-    0%{
-        top:0%;
-    
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata2{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata3{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata4{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata5{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata6{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata7{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata8{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata9{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata10{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata11{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata12{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata13{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata14{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes batata15{
-    0%{
-        top:0%;
-    }
-
-    100%{
-        top: 100%;
-    }
-}
-@keyframes body{
-    0%{
-        background-color: rgba(164, 212, 194, 0.822);
-    }
-    90%{
-        background-color: rgba(164, 212, 194, 0.822);
-    }
-    100%{
-        background-color: black;
-    }
-}
 
 
+   
