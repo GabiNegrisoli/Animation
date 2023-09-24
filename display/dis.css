@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#a{
+    border-color: black;
+    border:5px solid;
+    height: 650px;
+    width: 1200px;
+    display:flex;
+    flex-direction: row;
+}
+
+#a1{
+    height: 640px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#a2{
+    height: 640px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#b{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#b1{
+    border-color:black;
+    border:3px solid;
+    height: 470px;
+    width: 740px;
+    margin-top:5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#b21{
+    height: 450px;
+    width: 350px;
+    margin-top:5px;
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#b31{
+    height: 450px;
+    width: 350px;
+    margin-top:5px;
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aa{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:50px;
+    margin-left: 7px;
+}
+
+#bb{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:90px;
+    margin-left: 7px;
+}
+
+#cc{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:50px;
+    margin-left: 7px;
+}
+
+#dd{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:90px;
+    margin-left: 7px;
+}
+
+#a21{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:5px;
+    margin-left: 7px;
+}
+
+#a22{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:5px;
+    margin-left: 7px;
+}
+
+#a23{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:5px;
+    margin-left: 7px;
+}
+
+#a24{
+    border-color:black;
+    border:3px solid;
+    height: 105px;
+    width: 300px;
+    margin-top:5px;
+    margin-left: 7px;
+}
