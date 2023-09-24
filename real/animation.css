@@ -1,4 +1,3 @@
-
 .quad{
     background-color: green;
     width: 60px;
@@ -89,16 +88,20 @@
     71.4%{
         opacity: 0%;
         top: 1px;
+        background-color: maroon;
     }
     75%{
         opacity: 100%;
         top:1px;
+        background-color: maroon;
     }
     90%{
         top:225px;
+        background-color: crimson;
     }
     100%{
         top:225px;
+        background-color: red;
     }
 }
 @keyframes q1{

@@ -1,8 +1,13 @@
 body{
-    background-image: url(imagem/inferno.jpg);
+    background-image: url(imagem/hell-on.gif);
     background-repeat: no-repeat;
-    height: 100;
-    animation: inf 30s;
+    background-size: cover;
+    animation: inf 27s;
+}
+#inf{
+    height: 720px;
+    width: 1280px;
+    animation: inf 27s;
 }
 .quad{
     width: 60px;
@@ -687,20 +692,8 @@ body{
         top:530px;
         left:690px;
     }
-
-
-
   }
   @keyframes inf{
-    0%{
-      background-image: none;
-    }
-    80%{
-        background-image: none;
-    }
-    100%{
-         background-image: url(imagem/inferno.jpg);
-    }
+   
   }
-
-
+ 
